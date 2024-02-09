@@ -1,0 +1,65 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, rgba(10, 7, 7, 0.414) 50%, red 50%); /* Diagonal split background */
+    color: white; /* White text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Set body height to full viewport height */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.clue {
+    margin-bottom: 20px;
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgba(255, 255, 255, 0.1); /* Add translucent white background */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    font-size: 18px; /* Set text size */
+    text-align: center; /* Center text */
+}
+
+button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding for button size */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer for clickable button */
+}
+
+button:hover {
+    background-color: #d60000; /* Darken button color on hover */
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 20px; /* Position footer at the bottom of the page */
+    left: 50%; /* Center footer horizontally */
+    transform: translateX(-50%); /* Center footer horizontally */
+}
+
+.emoji {
+    font-size: 24px; /* Adjust font size as needed */
+    cursor: pointer; /* Add cursor pointer for clickable emoji */
+}
+.heart-container {
+    position: fixed; /* Position the container fixed to the viewport */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+}
+
+.heart {
+    color: rgba(255, 0, 51, 0.855); /* Set the color of the heart */
+    font-size: 24px; /* Set the size of the heart */
+    margin-left: 5px; /* Add margin between hearts */
+}
+
+/* Add your CSS styles here */
+h1, h2, p, form {
+    margin-bottom: 20px; /* Add space below these elements */
+}
